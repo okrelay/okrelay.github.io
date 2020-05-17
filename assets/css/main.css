@@ -13,7 +13,7 @@
 	max-width: 100%;
     left: -100%;
     margin: 7em -244px;
-    animation: slide 4s 5s;
+    animation: slide 4s 5s infinite;
 	overflow-x: hidden;
 }
 @keyframes slide {
