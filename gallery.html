@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OKR Success</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            console.log('hello')
+            let div = document.getElementById('images-wrapper');
+            const totalImgs = 14
+            for (let i=1; i<totalImgs+1;i++) {
+                let img = document.createElement("img");
+                let src = 'images/corpevents/i' + i + '.jpg'
+                img.setAttribute('src', src)
+                console.log('Appended ' + src)
+                div.appendChild(img);
+            }
+        }
+    </script>
+    <div id="images-wrapper"></div>
+</body>
+</html>
